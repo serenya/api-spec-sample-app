@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "spec": "dotnet swagger tofile --yaml --output ./api-spec.yml ./bin/Debug/netcoreapp3.1/IAM.WebAPI.dll v1"
+  }
+}
